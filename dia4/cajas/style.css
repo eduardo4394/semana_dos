@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+}
+.poema {
+    width: 1000px;
+    height: 1000px;
+    background-color: aquamarine;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.titulo {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 400px;
+    height: 200px;
+    border-radius: 50%;
+    border: 10px solid salmon;
+    margin-bottom: 30px;
+}
+
+.parrafo {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border: 1px solid blue;
+}
+
+.nacimiento {
+    background-color: slateblue;
+}
