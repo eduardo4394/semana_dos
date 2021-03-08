@@ -111,9 +111,7 @@ p {
     background-color: blueviolet;
     opacity: 0.75;    
     display: flex;
-    width: 100%;
-    margin: 0;
-    
+    width: 100%; 
 }
 
 .redes-sociales {
@@ -127,7 +125,7 @@ p {
 }
 
 .ubicanos li {
-    padding-bottom: 10px;
+    padding-bottom: 10px;    
 }
 
 footer .redes-sociales ul {
@@ -151,7 +149,8 @@ h5 {
     font-size: 30px;
     list-style: none;
     padding-right: 40px;
-    padding-left: 25px;    
+    padding-left: 25px; 
+    padding-top: 15px;   
 }
 
 .local {
@@ -163,13 +162,18 @@ h5 {
 
 .telefonos {
     width: 33%;  
-     
+    color: white;     
     margin-left: 15px;
+    font-size: 18px;
 }
 
 .telefonos ul {
     padding-left: 140px;
     
+}
+
+.telefonos li {
+    padding-bottom: 10px;
 }
 
 

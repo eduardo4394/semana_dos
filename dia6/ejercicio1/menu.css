@@ -12,8 +12,7 @@ body {
 h1 {
     text-align: center;
     padding: 15px 20px;    
-    color: rgb(229, 231, 66);
-    /*color: rgb(184, 76, 9);*/
+    color: rgb(229, 231, 66);    
     font-family: 'Crimson Text', serif;
     margin-top: 0;
     font-size: 45px;
@@ -58,8 +57,7 @@ h2 {
 }
 
 #promo2-desc {
-    position: absolute;
-    position: absolute;
+    position: absolute;    
     top:0;
     right: 0;
     color: white;
@@ -86,6 +84,10 @@ h3 {
     padding-bottom: 15px;
     color: rgb(234,224,200);
     font-family: 'Crimson Text', serif;
+}
+
+a {
+    text-decoration: none;
 }
 
 .footer {
