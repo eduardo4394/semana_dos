@@ -2,6 +2,12 @@
 
 *{
     font-family: 'Crimson Text', serif;
+    margin: 0;
+}
+
+html {
+    width: 100%;
+    margin: 0;
 }
 
 body {
@@ -11,6 +17,9 @@ body {
     background-size: cover;
     height: 100%;
     margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    
 }
 
 header{
@@ -49,16 +58,16 @@ h1 {
 
 header ul {
     display: flex;
-    justify-content: flex-end;
-    padding-top: 15px;
-    
+    justify-content: flex-end; 
+    padding-top: 15px; 
 }
 
 header li {
-    font-size: 30px;
+    font-size: 28px;
     list-style: none;
-    padding-right: 40px;
-    padding-left: 25px;    
+    padding-left: 20px;
+    padding-right: 20px;
+
 }
 
 .nav {
@@ -95,7 +104,9 @@ h2 {
     padding-right: 15px;
     background-color: rgb(37, 28, 28);
     opacity: 0.7;
-    border-radius: 15px;  
+    border-radius: 15px;
+    margin-left: 15px;  
+    margin-right: 15px;
 }
 
 .columna-40:hover {    
@@ -107,30 +118,49 @@ p {
     font-weight: 700;
 }
 
+footer {
+    width: 100%;
+
+}
+
 #contacto {    
-    background-color: blueviolet;
-    opacity: 0.75;    
+    background-color: rgb(65, 44, 83);
+    opacity: 0.85;    
     display: flex;
     width: 100%; 
 }
 
 .redes-sociales {
-    width: 33%;    
-    margin-left: 15px;    
+    width: 33.33%;   
 }
 
 .ubicanos {
-    width: 33%;    
-    margin-left: 15px;
+    width: 33.33%;    
+}
+
+.ubicanos ul {
+    padding: 0;
 }
 
 .ubicanos li {
-    padding-bottom: 10px;    
+    padding-bottom: 10px; 
+    list-style: none;    
 }
 
-footer .redes-sociales ul {
+.redes-sociales ul {
     display: flex;     
-    justify-content: center;   
+    justify-content: space-evenly;
+    padding: 0;       
+}
+
+.redes-sociales li {
+    font-size: 25px;
+    list-style: none;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 15px;
+     
+
 }
 
 h5 {
@@ -139,41 +169,33 @@ h5 {
     text-align: center;
     padding-bottom: 0px;
     color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .redes {
     color: white;       
 }
 
-.redes-sociales li {
-    font-size: 30px;
-    list-style: none;
-    padding-right: 40px;
-    padding-left: 25px; 
-    padding-top: 15px;   
-}
-
 .local {
     font-size: 15px;
     font-weight: 600;
     color: white;
-
 }
 
 .telefonos {
-    width: 33%;  
-    color: white;     
-    margin-left: 15px;
-    font-size: 18px;
+    width: 33.33%;  
+    color: white;   
+    font-size: 15px;
 }
 
 .telefonos ul {
-    padding-left: 140px;
-    
+    text-align: center;   
 }
 
 .telefonos li {
     padding-bottom: 10px;
+    list-style: none;
 }
 
 @media only screen and (max-width: 600px) {
@@ -183,7 +205,48 @@ h5 {
     }
     
     header {
-        background-color: blueviolet;           
+        background-color: rgb(221, 215, 226); 
+        justify-content: center;                  
+    }  
+
+    .nav {
+        color: black;
+    }
+
+    .nav:hover {
+        color:rgb(225, 238, 113);
+    }
+
+    #logo {
+        display: none;
+    }
+
+    header li {
+        font-size: 30px;
+    }
+
+    h2 {
+        display: none;
+    }
+
+    .container-main{
+        display: none;
+    }
+
+    #contacto {
+        display: block;
+    }
+
+    .redes-sociales {
+        width: 100%;
+    }
+
+    .ubicanos {
+        width: 100%;
+    }
+
+    .telefonos {
+        width: 100%;
     }
 }
 
@@ -191,17 +254,31 @@ h5 {
     body {
         background-image: url('assets/imgs/close.jpg');
     }
+
+    #logo {
+        width: 150px;
+        height: 55px;        
+    }       
 }
 
 @media only screen and (min-width:992px) {
     #contacto {
-        background-color: rgb(28, 128, 123);
+        background-color: rgb(22, 165, 158);
+        opacity: 1;        
+    }
+    body {
+        background-image: url('assets/imgs/background.jpg');
     }
 }
 
 @media only screen and (min-width:1200px) {
     h1 {
         display: none;
+        
+    }
+
+    h2 {
+        margin-top: 120px;
     }
 }
 
